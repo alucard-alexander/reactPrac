@@ -4,7 +4,7 @@ class Department extends Component{
   render(){
     return(
       <div>
-        <hi> this is { this.props.name }</hi>
+        <h1> this is { this.props.name }, well now am { this.props.age } </h1>
       </div>
     )
   }
